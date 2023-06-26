@@ -1,0 +1,634 @@
+/* Responsive */
+@media(max-width:1000px) {
+    .navbar {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+    .toggle-btn i{
+        font-size: 40px;
+    }
+    .dropdown-menu {
+        display: block;
+    }
+
+    .logo {
+        padding: 0;
+        font-size: 240%;
+    }
+    .home{
+        position: relative;
+        left: 14rem;
+        margin: -6rem 0 8rem 0;
+        padding: 39rem 0 20rem 0;
+    }
+    .home-content{
+        position: relative;
+        top: -7rem;
+        right: 6rem;
+    }
+    .home-content h3 {
+        font-size: 250%;
+        position: relative;
+        top: 2rem;
+    }
+    .home h3:nth-of-type(2) {
+        width: 40rem;
+    }
+    .home-content h1 {
+        font-size: 250%;
+        position: relative;
+        top: 2rem;
+    }
+
+    .home-content p {
+        font-size: 140%;
+        position: relative;
+        top: 1rem;
+    }
+
+    .social-media {
+        display: flex;
+        position: relative;
+        top: 1rem;
+        gap: 2rem;
+    }
+    .home-img img {
+        position: relative;
+        top: -6rem;
+        width: 300px;
+        right: -11rem;
+    }
+
+    .home-content .btn {
+        position: relative;
+        top: 1rem;
+    }
+
+    /* About */
+    .about {
+        width: 93rem;
+        margin-top: 5rem;
+        padding: 4rem 0 4rem 0;
+    }
+
+    .about-content h2 {
+        font-size: 400%;
+        position: relative;
+        right: 5rem;
+    }
+    .about-img img{
+        width: 18rem;
+        margin-left:14rem ;
+    }
+    .about-content h3 {
+        font-size: 273%;
+        position: relative;
+        right: 7rem;
+        width: 24rem;
+    }
+
+    .about-content p {
+        font-size: 140%;
+        margin-left: -10.5rem;
+        width: 34rem;
+    }
+    /* Services */
+    .services{
+        position: relative;
+        bottom: 4rem;
+        padding: 12rem 0;
+    }
+    .services .heading{
+        display: inline-block;
+        position: relative;
+        margin: 4rem;
+        top: -8rem;
+        left: 30rem;
+    }
+    .services-container{
+        position: relative;
+        top: -14rem;
+        left: 15rem;
+        margin: 5rem 0;
+        width: 1000px;
+    }
+    .services-box{
+        width: 20rem;
+        height: 22rem;
+    }
+    .services-box i{
+        font-size: 290%;
+        margin: 1rem;
+    }
+    /* Portfolio */
+    .portfolio{
+        padding-top: 23rem;
+    }
+    .portfolio .heading{
+        display: inline-block;
+        position: relative;
+        top: -17rem;
+        left:32rem;
+    }
+    .portfolio-container{
+        width: 72rem;
+        height: 17rem;
+        position: relative;
+        top: -15rem;
+        left: 7rem;
+    }
+    .portfolio-box{
+        height: 13rem;
+    }
+    .portfolio-box img{
+        width: 100%;
+        height: 100%;
+    }
+    /* Contact */
+    .contact{
+        position: relative;
+        top: 11rem;
+        padding-top: 10rem;
+    }
+    .contact .heading{
+        display: inline-block;
+        position: relative;
+        top: -4rem;
+        left: 25rem;
+    }
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        left: 23rem;
+        width: 60rem;
+    }
+    .form{
+        /* display: inline-block;
+        flex-direction: column; */
+        position: relative;
+        right: 23rem;
+    }
+    .contact-container .box{
+        width: 27.5rem;
+    }
+    .form3{
+        width: 55rem;
+        position: relative;
+        right: 16rem;
+    }
+    .address{
+        width: 60rem;
+    }
+    .contact .btn{
+        position: relative;
+        right: 18rem;
+    }
+    .foot{
+        width: 93rem;
+    }
+}
+
+@media(max-width:576px) {
+    body{
+        height: 9000px;
+    }
+    .dropdown-menu {
+        left: 2rem;
+        width: unset;
+    }
+    .btn{
+        width: 17rem;
+        height: 5rem;
+        font-size: 150%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-content{
+        right: 10rem;
+    }
+    .home-content h3 {
+        font-size: 350%;
+        position: relative;
+        left: 32rem;
+        top: 3rem;
+    }
+
+    .home h3:nth-of-type(2) {
+        left: 25rem;
+        width: 52rem;
+    }
+
+    .home-content h1 {
+        font-size: 350%;
+        position: relative;
+        left: 34.5rem;
+        top: 3rem;
+    }
+
+    .home-content p {
+        font-size: 148%;
+        position: relative;
+        left: 13rem;
+        top: 2rem;
+        width: 57rem;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        position: relative;
+        top: 2rem;
+        left: 27rem;
+        gap: 2rem;
+    }
+    .social-media a {
+        width: 5rem;
+        height: 5rem;
+    }
+    .social-media a i{
+        font-size: 2rem;
+    }
+
+    .home-img img {
+        position: relative;
+        top: 24rem;
+        width: 280px;
+        right: 14rem;
+    }
+
+    .home-content .btn {
+        text-align: center;
+        position: relative;
+        top: 3rem;
+        left: 23rem;
+    }
+
+    /* About */
+    .about {
+        width: 94rem;
+        margin-top: 30rem;
+        height: 85rem;
+        position: relative;
+    }
+    .about-content{
+        position: relative;
+        margin: 0;
+        top: -11rem;
+        right: 2rem;
+    }
+    .about-content h2 {
+        font-size: 400%;
+        position: relative;
+        right: 24rem;
+    }
+
+    .about-content h3 {
+        font-size: 350%;
+        position: relative;
+        right: 29rem;
+        top: 1rem;
+        width: 33rem;
+    }
+
+    .about-content p {
+        font-size: 221%;
+        position: relative;
+        right: 23rem;
+        top: 1rem;
+        width: 41rem;
+        text-align: center
+    }
+
+    .about-img img {
+        position: relative;
+        top: 25rem;
+        left: 25rem;
+        width: 32%;
+    }
+    .about .btn{
+        position: relative;
+        top: 1.5rem;
+        font-size: 200%;
+        right: 29.5rem;
+    }
+    /* Services */
+    .services{
+        top: -18rem;
+        left: 2rem;
+    }
+    .services-container{
+        display: inline-block;
+        padding: 5rem;
+    }
+    .services-box{
+        margin: 3rem;
+        width: 60rem;
+        height: 36rem;
+        position: relative;
+        right: 6rem;
+        font-size: 260%;
+    }
+    .services .btn{
+        font-size: 100%;
+    }
+
+    /* Portfolio */
+    .portfolio{
+        position: relative;
+        top: -60rem;
+    }
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        height: 160rem;
+        margin: 0 4rem;
+    }
+    .portfolio-box{
+        width: 55rem;
+        height: 30rem;
+    }
+    .portfolio-layer{
+        
+    }
+    .portfolio-layer h4{
+        font-size: 350%;
+        
+    }
+    .portfolio-layer p{
+        font-size: 300%;
+        margin: 1rem;
+    }
+    .portfolio-layer a{
+        width: 4rem;
+        height: 4rem;
+    }
+    .portfolio-layer a i{
+        font-size: 1.5rem;
+    }
+    /* Contact */
+    .contact{
+        position: relative;
+        top: -80rem;
+        left: 3rem;
+    }
+    .contact .heading{
+        position: relative;
+        left: 28rem;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container .box{
+        width: 56rem;
+        height: 7rem;
+    }
+
+    ::placeholder{
+        font-size: 2rem;
+    }
+    /* Footer */
+    .foot{
+        width: 95rem;
+        position: relative;
+        bottom: 90rem;
+    }
+    .foot p{
+        font-size: 130%;
+    }
+    
+}
+@media(max-width:350px) {
+    .logo{
+        font-size: 5rem;
+    }
+    .toggle-btn i{
+        font-size: 5rem;
+    }
+    .navbar{
+        font-size: 4rem;        
+    }
+    body{
+        height: 9000px;
+    }
+    .open{
+        left: 1rem;
+        width: 15rem;
+        height: 27rem;
+    }
+    .dropdown-menu a{
+       font-size: 3rem;
+    }
+    .btn{
+        width: 17rem;
+        height: 5rem;
+        font-size: 250%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-content{
+        right: 15rem;
+        top: 1rem;
+    }
+    .home-content h3 {
+        font-size: 536%;
+        position: relative;
+        left: 32rem;
+        top: 3rem;
+    }
+
+    .home h3:nth-of-type(2) {
+        left: 20rem;
+        width: 52rem;
+    }
+
+    .home-content h1 {
+        font-size: 500%;
+        position: relative;
+        left: 34.5rem;
+        top: 3rem;
+    }
+
+    .home-content p {
+        font-size: 300%;
+        position: relative;
+        left: 15rem;
+        top: 2rem;
+        width: 57rem;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        position: relative;
+        top: 2rem;
+        left: 27rem;
+        gap: 2rem;
+    }
+    .social-media a {
+        width: 8rem;
+        height: 8rem;
+    }
+    .social-media a i{
+        font-size: 4rem;
+    }
+
+    .home-img img {
+        position: relative;
+        top: 44rem;
+        width: 380px;
+        right: 14rem;
+    }
+
+    .home-content .btn {
+        text-align: center;
+        position: relative;
+        top: 4rem;
+        left: 28rem;
+        width: 21rem;
+    }
+
+    /* About */
+    .about {
+        width: 94rem;
+        margin-top: 30rem;
+        height: 85rem;
+        position: relative;
+    }
+    .about-content{
+        position: relative;
+        margin: 0;
+        top: -11rem;
+        right: 2rem;
+    }
+    .about-content h2 {
+        font-size: 400%;
+        position: relative;
+        right: 24rem;
+    }
+
+    .about-content h3 {
+        font-size: 350%;
+        position: relative;
+        right: 29rem;
+        top: 1rem;
+        width: 33rem;
+    }
+
+    .about-content p {
+        font-size: 221%;
+        position: relative;
+        right: 23rem;
+        top: 1rem;
+        width: 41rem;
+        text-align: center
+    }
+
+    .about-img img {
+        position: relative;
+        top: 25rem;
+        left: 25rem;
+        width: 32%;
+    }
+    .about .btn{
+        position: relative;
+        top: 1.5rem;
+        font-size: 200%;
+        right: 29.5rem;
+    }
+    /* Services */
+    .services{
+        top: -18rem;
+        left: 2rem;
+    }
+    .services-container{
+        display: inline-block;
+        padding: 5rem;
+    }
+    .services-box{
+        margin: 3rem;
+        width: 60rem;
+        height: 36rem;
+        position: relative;
+        right: 6rem;
+        font-size: 260%;
+    }
+    .services .btn{
+        font-size: 100%;
+    }
+
+    /* Portfolio */
+    .portfolio{
+        position: relative;
+        top: -60rem;
+    }
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        height: 160rem;
+        margin: 0 4rem;
+    }
+    .portfolio-box{
+        width: 55rem;
+        height: 30rem;
+    }
+    .portfolio-layer{
+        
+    }
+    .portfolio-layer h4{
+        font-size: 350%;
+        
+    }
+    .portfolio-layer p{
+        font-size: 300%;
+        margin: 1rem;
+    }
+    .portfolio-layer a{
+        width: 4rem;
+        height: 4rem;
+    }
+    .portfolio-layer a i{
+        font-size: 1.5rem;
+    }
+    /* Contact */
+    .contact{
+        position: relative;
+        top: -80rem;
+        left: 3rem;
+    }
+    .contact .heading{
+        position: relative;
+        left: 28rem;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container .box{
+        width: 56rem;
+        height: 7rem;
+    }
+
+    ::placeholder{
+        font-size: 2rem;
+    }
+    /* Footer */
+    .foot{
+        width: 95rem;
+        position: relative;
+        bottom: 90rem;
+    }
+    .foot p{
+        font-size: 130%;
+    }
+    
+}
